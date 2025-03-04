@@ -85,7 +85,7 @@ sap.ui.define([
 		} else {
 			Object.keys(oState).map((sKey) => {
 				aColumnWidth.push({
-					key: sKey, width: oState[sKey]
+					key: sKey, name: sKey, width: oState[sKey]
 				});
 			});
 		}
